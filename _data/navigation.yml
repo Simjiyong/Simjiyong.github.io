@@ -16,6 +16,12 @@ categories:
       children:
         - title: "Android"
           url: /categories/android/
+        
+        - title: "Kotlin"
+          url: /categories/kotlin/
 
         - title: "Algorithm"
           url: /categories/algorithm/
+
+        - title: "Etc"
+          url: /categories/etc/
