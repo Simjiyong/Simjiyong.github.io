@@ -4,7 +4,6 @@ categories: Kotlin
 toc: true
 toc_sticky: true
 toc_label: "Kotlin 문법"
-comments: true
 ---
 
 # Kotlin 공부
