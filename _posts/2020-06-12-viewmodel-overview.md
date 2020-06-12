@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        scoreViewModel = ViewModelProvider(this).get(scoreViewModel::class.java)
+        scoreViewModel = ViewModelProvider(this).get(ScoreViewModel::class.java)
         displayForTeamA(scoreViewModel.getScoreTeamA())
         displayForTeamB(scoreViewModel.getScoreTeamB())
     }
