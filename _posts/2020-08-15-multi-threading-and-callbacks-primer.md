@@ -50,3 +50,5 @@ main 스레드를 차단하지 않고 장기 실행 작업을 수행하는 한 �
 
 코틀린에서 코루틴은 장기 실행작업을 우아하고 효율적으로 처리하기위한 솔루션이다. 코틀린 코루틴을 사용하면 콜백 기반 코드를 순차 코드로 변환할 수 있다. 순차적으로 작성된 코드는 일반적으로 읽기가 더 쉽고 exception과 같은 언어 기능을 사용할 수도 있다. 결국 코루틴과 콜백은 같은 일을 한다. 오래 실행되는 작업에서 결과가 나올 때까지 기다렸다가 계속 실행한다.
 
+[출처]
+Multi-threading & callbacks primer, Android Developers, 2020년08월15일 접속, https://developer.android.com/courses/extras/multithreading#callbacks
